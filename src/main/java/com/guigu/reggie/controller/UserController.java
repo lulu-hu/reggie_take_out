@@ -25,6 +25,8 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    private Redis
+
     @PostMapping("/sendMsg")
     public R<String> sendMsg(@RequestBody User user, HttpSession session){
 
